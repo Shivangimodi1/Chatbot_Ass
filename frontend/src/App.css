@@ -1,0 +1,66 @@
+/* Flex container to hold both Note Box and Chat Window */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Add space between the Note Box and Chat Window */
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px; /* Limit the container width */
+}
+
+/* Styling for the Note Box */
+.note-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%; /* 30% of the container width */
+  height: 100%; /* Ensure it takes full height */
+}
+
+/* Styling for the Chat Window */
+.chat-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%; /* 70% of the container width */
+  height: 100%; /* Ensure it takes full height */
+}
+
+/* Header */
+.App-header {
+  background-color: #4e73df; /* Soft blue background */
+  color: white; /* White text for contrast */
+  padding: 10px 0; /* Balanced padding */
+  font-size: 3rem; /* Slightly smaller font size */
+  font-weight: bold; /* Make the font bold */
+  margin-bottom: 10px; /* Space between header and chat window */
+  border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  max-width: 100%; /* Prevents header from taking more space than necessary */
+  text-align: center; /* Center the text */
+  height: 80px; /* Set a fixed height for the header */
+}
+
+/* Styling for the Note Box content */
+.note-box h2 {
+  font-size: 1.5rem;
+  color: #4e73df;
+  margin-bottom: 10px;
+}
+
+.note-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-box li {
+  background-color: #e7f3fe;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}

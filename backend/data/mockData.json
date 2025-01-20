@@ -1,0 +1,29 @@
+{
+    "greetings": [
+      "Hello! How can I assist you today?",
+      "Hi! How may I help you?",
+      "Good day! What can I do for you?"
+    ],
+    "fallback": [
+      "I'm sorry, I didn't quite understand that.",
+      "Could you please rephrase your question?",
+      "I'm not sure how to respond to that. Can you clarify?"
+    ],
+    "faq": {
+      "What is your name?": "I'm a chatbot built to assist you.",
+      "What can you do?": "I can help you with general inquiries, provide information, or assist with simple tasks.",
+      "What is your purpose?": "My purpose is to assist users in getting quick answers to their questions and help with tasks."
+    },
+    "small_talk": {
+      "How are you?": "I'm just a bot, but I'm doing great! Thanks for asking.",
+      "What is your favorite color?": "I don't have a favorite color, but I think blue is nice!",
+      "Tell me a joke!": "Why don't skeletons fight each other? They don't have the guts!"
+    },
+    "contact_info": {
+      "email": "support@chatbot.com",
+      "phone": "123-456-7890",
+      "address": "123 Bot Street, AI City, Techland"
+    },
+    "about_us": "We are a team of AI enthusiasts creating solutions to make life easier through chatbots and automation."
+  }
+  
